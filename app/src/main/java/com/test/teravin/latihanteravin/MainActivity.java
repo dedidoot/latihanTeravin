@@ -87,7 +87,6 @@ public class MainActivity extends AppCompatActivity {
             popularDB.setOriginalTitle(results.get(i).originalTitle);
             popularDB.setAdult(results.get(i).adult);
             popularDB.setPopularity(results.get(i).popularity);
-            popularDB.setGenreIds(results.get(i).genreIds);
             popularDB.setOverview(results.get(i).overview);
             popularDB.setReleaseDate(results.get(i).releaseDate);
             realm.copyToRealm(popularDB);

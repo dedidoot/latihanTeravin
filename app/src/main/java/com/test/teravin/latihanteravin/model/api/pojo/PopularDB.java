@@ -32,7 +32,6 @@ public class PopularDB extends RealmObject {
 
     private String originalTitle;
 
-    private List<Integer> genreIds = new ArrayList<>();
 
     private String backdropPath;
 
@@ -114,13 +113,7 @@ public class PopularDB extends RealmObject {
         this.originalTitle = originalTitle;
     }
 
-    public List<Integer> getGenreIds() {
-        return genreIds;
-    }
 
-    public void setGenreIds(List<Integer> genreIds) {
-        this.genreIds = genreIds;
-    }
 
     public String getBackdropPath() {
         return backdropPath;
