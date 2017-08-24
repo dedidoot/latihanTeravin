@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LatihanTeravin</string>
+    <string name="koneksi_error">Koneksi mu error</string>
+    <string name="server_error">Server error</string>
+    <string name="data_kosong">Tidak ada data</string>
+    <string name="klik_disini_untuk_refresh">Refresh</string>
+</resources>
